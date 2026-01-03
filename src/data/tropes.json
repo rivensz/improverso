@@ -1,0 +1,1452 @@
+[
+  {
+    "id": 1,
+    "nome": "Agente Mulder",
+    "tipo": "Investigador",
+    "quem_e": "Investigador que acredita em teorias alternativas, conspirações e fenômenos inexplicáveis.",
+    "voce_sempre": "Busca padrões ocultos e interpreta eventos como sinais de algo maior.",
+    "voce_nunca": "Aceita explicações oficiais sem questionar.",
+    "objetivo_imediato": "Provar que há algo errado por trás da versão oficial dos fatos.",
+    "gatilho_de_conflito": "Alguém tenta encerrar a investigação cedo demais."
+  },
+  {
+    "id": 2,
+    "nome": "Agente Scully",
+    "tipo": "Investigadora Cética",
+    "quem_e": "Personagem cético e racional que busca explicações científicas e lógicas.",
+    "voce_sempre": "Exige evidências concretas e raciocínio lógico.",
+    "voce_nunca": "Aceita explicações sobrenaturais sem provas.",
+    "objetivo_imediato": "Encontrar uma explicação racional para o que está acontecendo.",
+    "gatilho_de_conflito": "Alguém insiste em conclusões sem base científica."
+  },
+  {
+    "id": 3,
+    "nome": "A Fêmea Alfa Hostil",
+    "tipo": "Antagonista Social",
+    "quem_e": "Mulher dominante, agressiva e competitiva, frequentemente antagonista social.",
+    "voce_sempre": "Busca controlar o ambiente e impor sua autoridade.",
+    "voce_nunca": "Aceita ficar em segundo plano.",
+    "objetivo_imediato": "Manter ou conquistar poder social.",
+    "gatilho_de_conflito": "Alguém desafia sua liderança ou status."
+  },
+  {
+    "id": 4,
+    "nome": "Caçador de Ambulâncias",
+    "tipo": "Oportunista",
+    "quem_e": "Advogado ou oportunista que explora tragédias alheias para ganho pessoal.",
+    "voce_sempre": "Enxerga lucro em situações trágicas.",
+    "voce_nunca": "Age por compaixão genuína.",
+    "objetivo_imediato": "Lucrar com o desastre atual.",
+    "gatilho_de_conflito": "A vítima se recusa a cooperar."
+  },
+  {
+    "id": 5,
+    "nome": "Irmão Mais Novo Irritante",
+    "tipo": "Fonte de Caos",
+    "quem_e": "Criança ou adolescente que provoca, incomoda e causa problemas constantes.",
+    "voce_sempre": "Se mete onde não foi chamado.",
+    "voce_nunca": "Segue regras por muito tempo.",
+    "objetivo_imediato": "Chamar atenção.",
+    "gatilho_de_conflito": "É ignorado ou deixado de fora."
+  },
+  {
+    "id": 6,
+    "nome": "Matrona de Avental",
+    "tipo": "Protetora",
+    "quem_e": "Mulher madura, doméstica, protetora e tradicionalmente ligada ao lar.",
+    "voce_sempre": "Cuida dos outros, mesmo sem ser solicitado.",
+    "voce_nunca": "Abandona alguém sob sua responsabilidade.",
+    "objetivo_imediato": "Manter todos seguros e unidos.",
+    "gatilho_de_conflito": "Alguém coloca a família ou o grupo em risco."
+  },
+  {
+    "id": 7,
+    "nome": "Louco Violento",
+    "tipo": "Ameaça",
+    "quem_e": "Personagem imprevisível, extremamente agressivo e sem freios morais.",
+    "voce_sempre": "Reage com violência extrema.",
+    "voce_nunca": "Demonstra remorso.",
+    "objetivo_imediato": "Destruir o que o frustra.",
+    "gatilho_de_conflito": "Qualquer oposição direta."
+  },
+  {
+    "id": 8,
+    "nome": "Durão Normal",
+    "tipo": "Herói",
+    "quem_e": "Pessoa sem poderes que se destaca apenas por habilidade, coragem ou treino.",
+    "voce_sempre": "Enfrenta o perigo de frente.",
+    "voce_nunca": "Depende de habilidades sobrenaturais.",
+    "objetivo_imediato": "Proteger os outros.",
+    "gatilho_de_conflito": "Alguém inocente é ameaçado."
+  },
+  {
+    "id": 9,
+    "nome": "Chefe Ruim",
+    "tipo": "Autoridade Tóxica",
+    "quem_e": "Líder incompetente, abusivo ou egocêntrico que dificulta a vida dos subordinados.",
+    "voce_sempre": "Cobra resultados irreais.",
+    "voce_nunca": "Assume culpa.",
+    "objetivo_imediato": "Manter sua posição de poder.",
+    "gatilho_de_conflito": "Alguém questiona sua competência."
+  },
+  {
+    "id": 10,
+    "nome": "Vingança Servida Fria",
+    "tipo": "Vingador",
+    "quem_e": "Personagem movido por vingança planejada e paciente.",
+    "voce_sempre": "Planeja a longo prazo.",
+    "voce_nunca": "Age por impulso.",
+    "objetivo_imediato": "Executar sua vingança.",
+    "gatilho_de_conflito": "O alvo demonstra felicidade ou sucesso."
+  },
+  {
+    "id": 11,
+    "nome": "Ladrão Descarado",
+    "tipo": "Criminoso",
+    "quem_e": "Criminoso que rouba sem sutileza ou preocupação com discrição.",
+    "voce_sempre": "Age abertamente.",
+    "voce_nunca": "Planeja com cuidado.",
+    "objetivo_imediato": "Roubar algo de valor.",
+    "gatilho_de_conflito": "É confrontado durante o roubo."
+  },
+  {
+    "id": 12,
+    "nome": "Caçador de Recompensas",
+    "tipo": "Mercenário",
+    "quem_e": "Personagem que persegue alvos por dinheiro, não por ideologia.",
+    "voce_sempre": "Segue o contrato.",
+    "voce_nunca": "Age por altruísmo.",
+    "objetivo_imediato": "Capturar o alvo.",
+    "gatilho_de_conflito": "Alguém interfere no contrato."
+  },
+  {
+    "id": 13,
+    "nome": "Pirralho Mimado",
+    "tipo": "Problema",
+    "quem_e": "Criança arrogante, mandona e irritante.",
+    "voce_sempre": "Exige ser obedecido.",
+    "voce_nunca": "Reconhece limites.",
+    "objetivo_imediato": "Conseguir o que quer.",
+    "gatilho_de_conflito": "Recebe um não."
+  },
+  {
+    "id": 14,
+    "nome": "O Valentão",
+    "tipo": "Agressor",
+    "quem_e": "Personagem que intimida e oprime os mais fracos.",
+    "voce_sempre": "Ataca quem parece vulnerável.",
+    "voce_nunca": "Escolhe um oponente à altura.",
+    "objetivo_imediato": "Afirmar domínio.",
+    "gatilho_de_conflito": "Alguém o enfrenta."
+  },
+  {
+    "id": 15,
+    "nome": "Pai Atrapalhado",
+    "tipo": "Comédia",
+    "quem_e": "Pai bem-intencionado, mas desajeitado e incompetente no dia a dia.",
+    "voce_sempre": "Complica situações simples.",
+    "voce_nunca": "Desiste da família.",
+    "objetivo_imediato": "Fazer a coisa certa.",
+    "gatilho_de_conflito": "Uma responsabilidade inesperada surge."
+  },
+  {
+    "id": 16,
+    "nome": "Parceiro Desastrado",
+    "tipo": "Sidekick",
+    "quem_e": "Ajudante leal que frequentemente comete erros.",
+    "voce_sempre": "Tenta ajudar.",
+    "voce_nunca": "Age com precisão.",
+    "objetivo_imediato": "Provar seu valor.",
+    "gatilho_de_conflito": "Um erro causa problemas."
+  },
+  {
+    "id": 17,
+    "nome": "Advogado Excêntrico",
+    "tipo": "Profissional Estranho",
+    "quem_e": "Profissional competente, porém estranho, imprevisível ou excêntrico.",
+    "voce_sempre": "Quebra expectativas sociais.",
+    "voce_nunca": "Segue protocolos à risca.",
+    "objetivo_imediato": "Vencer o caso.",
+    "gatilho_de_conflito": "O tribunal exige formalidade."
+  },
+  {
+    "id": 18,
+    "nome": "O Cuidador",
+    "tipo": "Suporte",
+    "quem_e": "Personagem dedicado a cuidar física ou emocionalmente de outros.",
+    "voce_sempre": "Coloca os outros em primeiro lugar.",
+    "voce_nunca": "Pensa apenas em si.",
+    "objetivo_imediato": "Manter todos bem.",
+    "gatilho_de_conflito": "Alguém rejeita seus cuidados."
+  },
+  {
+    "id": 19,
+    "nome": "O Casanova",
+    "tipo": "Sedutor",
+    "quem_e": "Sedutor confiante, conhecido por múltiplos romances.",
+    "voce_sempre": "Flerta naturalmente.",
+    "voce_nunca": "Permanece sozinho por muito tempo.",
+    "objetivo_imediato": "Conquistar alguém novo.",
+    "gatilho_de_conflito": "É rejeitado publicamente."
+  },
+  {
+    "id": 20,
+    "nome": "O Encantador",
+    "tipo": "Carismático",
+    "quem_e": "Personagem carismático que conquista pela simpatia.",
+    "voce_sempre": "Usa charme para resolver conflitos.",
+    "voce_nunca": "Recorre à força primeiro.",
+    "objetivo_imediato": "Ganhar aliados.",
+    "gatilho_de_conflito": "Seu charme falha."
+  },
+  {
+    "id": 21,
+    "nome": "Rato da Cidade",
+    "tipo": "Urbano",
+    "quem_e": "Pessoa urbana, sofisticada e prática, que despreza a vida simples.",
+    "voce_sempre": "Confia na esperteza urbana.",
+    "voce_nunca": "Valoriza tradições rurais.",
+    "objetivo_imediato": "Otimizar tudo.",
+    "gatilho_de_conflito": "É forçado a lidar com a vida simples."
+  },
+  {
+    "id": 22,
+    "nome": "Palhaço da Turma",
+    "tipo": "Alívio Cômico",
+    "quem_e": "Indivíduo que usa humor constante para ganhar atenção, aliviar tensões ou mascarar inseguranças.",
+    "voce_sempre": "Faz piadas mesmo em momentos inapropriados.",
+    "voce_nunca": "Leva a situação completamente a sério.",
+    "objetivo_imediato": "Manter o clima leve e ser notado.",
+    "gatilho_de_conflito": "É ignorado ou mandado calar a boca."
+  },
+  {
+    "id": 23,
+    "nome": "Maluca do Mundo da Lua",
+    "tipo": "Excêntrico",
+    "quem_e": "Excêntrico que vive numa lógica própria, desconectado do senso comum.",
+    "voce_sempre": "Faz associações inesperadas e estranhas.",
+    "voce_nunca": "Segue lógica convencional.",
+    "objetivo_imediato": "Expressar sua visão única do mundo.",
+    "gatilho_de_conflito": "Alguém exige explicações racionais."
+  },
+  {
+    "id": 24,
+    "nome": "O Confidente",
+    "tipo": "Suporte Emocional",
+    "quem_e": "Pessoa confiável que ouve segredos e oferece apoio emocional sem buscar protagonismo.",
+    "voce_sempre": "Escuta com atenção e empatia.",
+    "voce_nunca": "Expõe segredos alheios.",
+    "objetivo_imediato": "Ajudar alguém em sofrimento.",
+    "gatilho_de_conflito": "Um segredo é traído."
+  },
+  {
+    "id": 25,
+    "nome": "Controlador Obsessivo",
+    "tipo": "Controlador",
+    "quem_e": "Indivíduo que precisa controlar tudo ao redor para se sentir seguro.",
+    "voce_sempre": "Tenta organizar e comandar tudo.",
+    "voce_nunca": "Confia totalmente nos outros.",
+    "objetivo_imediato": "Restabelecer controle.",
+    "gatilho_de_conflito": "Algo foge do planejado."
+  },
+  {
+    "id": 26,
+    "nome": "O Legista",
+    "tipo": "Profissional Técnico",
+    "quem_e": "Profissional que lida com a morte de forma técnica, fria ou casualmente irônica.",
+    "voce_sempre": "Trata a morte com objetividade.",
+    "voce_nunca": "Se deixa abalar emocionalmente.",
+    "objetivo_imediato": "Determinar a causa da morte.",
+    "gatilho_de_conflito": "Alguém reage emocionalmente ao seu tom."
+  },
+  {
+    "id": 27,
+    "nome": "Executivo Corporativo Corrupto",
+    "tipo": "Vilão Institucional",
+    "quem_e": "Figura de poder empresarial que prioriza lucro e status acima de qualquer ética.",
+    "voce_sempre": "Protege a própria imagem e os lucros.",
+    "voce_nunca": "Assume responsabilidade moral.",
+    "objetivo_imediato": "Abafar um escândalo.",
+    "gatilho_de_conflito": "Provas vêm à tona."
+  },
+  {
+    "id": 28,
+    "nome": "Bobo da Corte",
+    "tipo": "Comentador Social",
+    "quem_e": "Palhaço oficial que usa humor para criticar autoridades e revelar verdades incômodas.",
+    "voce_sempre": "Diz verdades disfarçadas de piada.",
+    "voce_nunca": "Confronta diretamente o poder.",
+    "objetivo_imediato": "Expor hipocrisias.",
+    "gatilho_de_conflito": "Alguém poderoso se sente atacado."
+  },
+  {
+    "id": 29,
+    "nome": "Vizinho Ranzinza",
+    "tipo": "Antissocial",
+    "quem_e": "Pessoa constantemente irritada, desconfiada e resistente a mudanças no entorno.",
+    "voce_sempre": "Reclama de tudo.",
+    "voce_nunca": "Aceita novidades com facilidade.",
+    "objetivo_imediato": "Manter tudo como sempre foi.",
+    "gatilho_de_conflito": "Algo muda no bairro."
+  },
+  {
+    "id": 30,
+    "nome": "Sobrevivencialista Maluco",
+    "tipo": "Paranoico",
+    "quem_e": "Paranoico obcecado por catástrofes, sempre preparado para o fim do mundo.",
+    "voce_sempre": "Prevê desastres iminentes.",
+    "voce_nunca": "Confia no sistema.",
+    "objetivo_imediato": "Convencer os outros do perigo.",
+    "gatilho_de_conflito": "É tratado como exagerado."
+  },
+  {
+    "id": 31,
+    "nome": "Empreiteiro Trapaceiro",
+    "tipo": "Vigarista",
+    "quem_e": "Profissional desonesto que engana clientes, corta custos e foge de responsabilidades.",
+    "voce_sempre": "Promete mais do que entrega.",
+    "voce_nunca": "Cumpre contratos fielmente.",
+    "objetivo_imediato": "Receber pagamento rápido.",
+    "gatilho_de_conflito": "O cliente descobre o golpe."
+  },
+  {
+    "id": 32,
+    "nome": "Idiota Agachado, Durão Oculto",
+    "tipo": "Surpresa",
+    "quem_e": "Personagem que parece incompetente, mas revela grande habilidade quando necessário.",
+    "voce_sempre": "Se faz de bobo.",
+    "voce_nunca": "Exibe sua verdadeira capacidade cedo.",
+    "objetivo_imediato": "Resolver a situação no momento crítico.",
+    "gatilho_de_conflito": "Alguém é subestimado demais."
+  },
+  {
+    "id": 33,
+    "nome": "Cuidador Rabugento",
+    "tipo": "Protetor",
+    "quem_e": "Responsável ranzinza que reclama constantemente, mas é profundamente dedicado.",
+    "voce_sempre": "Reclama enquanto ajuda.",
+    "voce_nunca": "Abandona quem depende dele.",
+    "objetivo_imediato": "Manter todos vivos e funcionais.",
+    "gatilho_de_conflito": "Alguém questiona seu cuidado."
+  },
+  {
+    "id": 34,
+    "nome": "Brutamontes Fofo",
+    "tipo": "Contraste",
+    "quem_e": "Pessoa fisicamente intimidadora, porém gentil, protetora ou ingênua.",
+    "voce_sempre": "Protege os mais fracos.",
+    "voce_nunca": "Percebe o próprio tamanho ou força.",
+    "objetivo_imediato": "Ajudar alguém.",
+    "gatilho_de_conflito": "Alguém o trata como ameaça."
+  },
+  {
+    "id": 35,
+    "nome": "Pai Veterano",
+    "tipo": "Figura de Autoridade",
+    "quem_e": "Pai marcado por experiências militares, disciplinado, rígido e protetor.",
+    "voce_sempre": "Age com disciplina e cautela.",
+    "voce_nunca": "Baixa a guarda.",
+    "objetivo_imediato": "Proteger a família.",
+    "gatilho_de_conflito": "Alguém coloca os filhos em risco."
+  },
+  {
+    "id": 36,
+    "nome": "Editor(a) Autoritário(a)",
+    "tipo": "Pressionador",
+    "quem_e": "Figura exigente e crítica que pressiona constantemente por resultados.",
+    "voce_sempre": "Exige mais e melhor.",
+    "voce_nunca": "Fica satisfeito.",
+    "objetivo_imediato": "Obter o material perfeito.",
+    "gatilho_de_conflito": "Atrasos ou mediocridade."
+  },
+  {
+    "id": 37,
+    "nome": "Donzela Errante",
+    "tipo": "Aventureira",
+    "quem_e": "Personagem que rejeita ser passiva e prefere agir e se aventurar por conta própria.",
+    "voce_sempre": "Toma iniciativa.",
+    "voce_nunca": "Espera ser resgatada.",
+    "objetivo_imediato": "Seguir sua própria jornada.",
+    "gatilho_de_conflito": "Alguém tenta protegê-la à força."
+  },
+  {
+    "id": 38,
+    "nome": "Perigo Impassível",
+    "tipo": "Frio",
+    "quem_e": "Pessoa que reage a situações extremas com total frieza e ausência de emoção.",
+    "voce_sempre": "Mantém expressão neutra.",
+    "voce_nunca": "Entra em pânico.",
+    "objetivo_imediato": "Eliminar a ameaça.",
+    "gatilho_de_conflito": "Outros entram em desespero."
+  },
+  {
+    "id": 39,
+    "nome": "Vilão do Chicote",
+    "tipo": "Antagonista Teatral",
+    "quem_e": "Antagonista teatral, sádico e melodramático que gosta de humilhar adversários.",
+    "voce_sempre": "Exagera gestos e falas.",
+    "voce_nunca": "Age de forma simples.",
+    "objetivo_imediato": "Humilhar o oponente.",
+    "gatilho_de_conflito": "Alguém não demonstra medo."
+  },
+  {
+    "id": 40,
+    "nome": "Sarcasmo Monótono",
+    "tipo": "Cínico",
+    "quem_e": "Personagem que reage a tudo com comentários secos, irônicos e sem emoção aparente.",
+    "voce_sempre": "Responde com sarcasmo.",
+    "voce_nunca": "Demonstra entusiasmo.",
+    "objetivo_imediato": "Sobreviver à situação.",
+    "gatilho_de_conflito": "Alguém exige emoção genuína."
+  },
+  {
+    "id": 41,
+    "nome": "Discípulo Enganador",
+    "tipo": "Traidor",
+    "quem_e": "Seguidor aparentemente leal que esconde segundas intenções ou traição.",
+    "voce_sempre": "Finge lealdade.",
+    "voce_nunca": "Revela seus verdadeiros planos cedo.",
+    "objetivo_imediato": "Ganhar confiança.",
+    "gatilho_de_conflito": "A traição é descoberta."
+  },
+  {
+    "id": 42,
+    "nome": "Taxista Perturbado",
+    "tipo": "Figura Inquietante",
+    "quem_e": "Motorista instável ou excêntrico que transforma trajetos em experiências inquietantes.",
+    "voce_sempre": "Fala coisas desconfortáveis.",
+    "voce_nunca": "Mantém conversas normais.",
+    "objetivo_imediato": "Chegar ao destino.",
+    "gatilho_de_conflito": "O passageiro pede silêncio."
+  },
+  {
+    "id": 43,
+    "nome": "Obstinado Inabalável",
+    "tipo": "Personalidade / Motivação",
+    "quem_e": "Personagem que avança incansavelmente, não importa o quão doloroso ou impossível seja o caminho.",
+    "voce_sempre": "Segue em frente, mesmo ferido, cansado ou desacreditado.",
+    "voce_nunca": "Desiste ou aceita derrota como opção final.",
+    "objetivo_imediato": "Superar o próximo obstáculo, custe o que custar.",
+    "gatilho_de_conflito": "Alguém tenta convencê-lo a parar ou desistir."
+  },
+  {
+    "id": 44,
+    "nome": "Motorista Sem Rumo",
+    "tipo": "Estado Existencial",
+    "quem_e": "Pessoa perdida, literal ou metaforicamente, sem direção clara na vida.",
+    "voce_sempre": "Segue caminhos sem saber exatamente por quê.",
+    "voce_nunca": "Tem um plano definido de longo prazo.",
+    "objetivo_imediato": "Encontrar algum sentido ou direção.",
+    "gatilho_de_conflito": "Ser pressionado a decidir rapidamente o próprio futuro."
+  },
+  {
+    "id": 45,
+    "nome": "Covarde Sujo",
+    "tipo": "Antagonista",
+    "quem_e": "Indivíduo que evita confronto direto e sobrevive através de trapaças e traições.",
+    "voce_sempre": "Foge quando o risco é real.",
+    "voce_nunca": "Enfrenta alguém de forma justa.",
+    "objetivo_imediato": "Salvar a própria pele.",
+    "gatilho_de_conflito": "Ser encurralado sem possibilidade de fuga."
+  },
+  {
+    "id": 46,
+    "nome": "A Tonta",
+    "tipo": "Comic Relief",
+    "quem_e": "Pessoa distraída, ingênua e aparentemente superficial.",
+    "voce_sempre": "Parece desligada do que está acontecendo.",
+    "voce_nunca": "Percebe a gravidade da situação de imediato.",
+    "objetivo_imediato": "Se divertir ou manter tudo leve.",
+    "gatilho_de_conflito": "Ser subestimada ou ridicularizada."
+  },
+  {
+    "id": 47,
+    "nome": "Cara Legal Persistente",
+    "tipo": "Moral / Ética",
+    "quem_e": "Pessoa gentil que continua fazendo o bem, mesmo sem reconhecimento.",
+    "voce_sempre": "Ajuda, mesmo quando isso custa algo.",
+    "voce_nunca": "Age por vingança.",
+    "objetivo_imediato": "Fazer a coisa certa.",
+    "gatilho_de_conflito": "Ver injustiça sendo normalizada."
+  },
+  {
+    "id": 48,
+    "nome": "Pai/Mãe Superprotetor(a)",
+    "tipo": "Relação Familiar",
+    "quem_e": "Figura parental excessivamente cuidadosa e controladora.",
+    "voce_sempre": "Protege antes de ouvir.",
+    "voce_nunca": "Confia totalmente na autonomia do outro.",
+    "objetivo_imediato": "Manter quem ama longe de qualquer risco.",
+    "gatilho_de_conflito": "O filho(a) tenta independência."
+  },
+  {
+    "id": 49,
+    "nome": "Agente Duplo",
+    "tipo": "Intriga",
+    "quem_e": "Personagem que serve secretamente a dois lados opostos.",
+    "voce_sempre": "Mente com naturalidade.",
+    "voce_nunca": "Revela suas verdadeiras intenções.",
+    "objetivo_imediato": "Manter sua farsa ativa.",
+    "gatilho_de_conflito": "Risco de ser desmascarado."
+  },
+  {
+    "id": 50,
+    "nome": "Sargento Instrutor Cruel",
+    "tipo": "Autoridade",
+    "quem_e": "Militar que impõe disciplina através de humilhação e rigidez extrema.",
+    "voce_sempre": "Grita e pressiona.",
+    "voce_nunca": "Demonstra empatia.",
+    "objetivo_imediato": "Quebrar e reconstruir seus subordinados.",
+    "gatilho_de_conflito": "Alguém questiona sua autoridade."
+  },
+  {
+    "id": 51,
+    "nome": "Doutor Babaca",
+    "tipo": "Profissional",
+    "quem_e": "Médico brilhante, arrogante e socialmente intragável.",
+    "voce_sempre": "Diz verdades duras sem filtro.",
+    "voce_nunca": "Se preocupa em parecer gentil.",
+    "objetivo_imediato": "Resolver o problema médico.",
+    "gatilho_de_conflito": "Alguém questiona sua competência."
+  },
+  {
+    "id": 52,
+    "nome": "Senhorio Invasivo",
+    "tipo": "Cotidiano",
+    "quem_e": "Proprietário que se intromete excessivamente na vida dos inquilinos.",
+    "voce_sempre": "Aparece sem avisar.",
+    "voce_nunca": "Respeita limites pessoais.",
+    "objetivo_imediato": "Controlar o espaço alheio.",
+    "gatilho_de_conflito": "Ser confrontado sobre privacidade."
+  },
+  {
+    "id": 53,
+    "nome": "Força Bruta Burra",
+    "tipo": "Capanga",
+    "quem_e": "Personagem muito forte, mas intelectualmente limitado.",
+    "voce_sempre": "Resolve tudo com força.",
+    "voce_nunca": "Questiona ordens.",
+    "objetivo_imediato": "Cumprir o que mandaram.",
+    "gatilho_de_conflito": "Receber ordens contraditórias."
+  },
+  {
+    "id": 54,
+    "nome": "Mãe da Educação",
+    "tipo": "Pressão Familiar",
+    "quem_e": "Mãe obcecada pelo sucesso acadêmico dos filhos.",
+    "voce_sempre": "Exige excelência.",
+    "voce_nunca": "Aceita mediocridade.",
+    "objetivo_imediato": "Garantir desempenho máximo.",
+    "gatilho_de_conflito": "Notas baixas ou escolhas não acadêmicas."
+  },
+  {
+    "id": 55,
+    "nome": "O Eeyore",
+    "tipo": "Estado Emocional",
+    "quem_e": "Pessoa pessimista e melancólica.",
+    "voce_sempre": "Espera o pior.",
+    "voce_nunca": "Acredita que algo dará certo.",
+    "objetivo_imediato": "Evitar decepções.",
+    "gatilho_de_conflito": "Otimismo excessivo dos outros."
+  },
+  {
+    "id": 56,
+    "nome": "Músico Clássico Elegante",
+    "tipo": "Estilo / Classe",
+    "quem_e": "Artista refinado, formal e disciplinado.",
+    "voce_sempre": "Mantém postura impecável.",
+    "voce_nunca": "Age de forma vulgar.",
+    "objetivo_imediato": "Preservar a excelência artística.",
+    "gatilho_de_conflito": "Desvalorização da arte clássica."
+  },
+  {
+    "id": 57,
+    "nome": "Maconheiro Erudito",
+    "tipo": "Contraste",
+    "quem_e": "Usuário de drogas calmo, filosófico e surpreendentemente culto.",
+    "voce_sempre": "Reflete profundamente.",
+    "voce_nunca": "Se estressa facilmente.",
+    "objetivo_imediato": "Entender a vida.",
+    "gatilho_de_conflito": "Ser tratado como irresponsável."
+  },
+  {
+    "id": 58,
+    "nome": "O Homem Comum",
+    "tipo": "Protagonista",
+    "quem_e": "Pessoa comum, sem nada extraordinário.",
+    "voce_sempre": "Reage como qualquer um reagiria.",
+    "voce_nunca": "Busca ser herói.",
+    "objetivo_imediato": "Sobreviver à situação.",
+    "gatilho_de_conflito": "Ser forçado a assumir responsabilidades heroicas."
+  },
+  {
+    "id": 59,
+    "nome": "Matriarca Maligna",
+    "tipo": "Antagonista Familiar",
+    "quem_e": "Figura materna controladora, manipuladora e cruel.",
+    "voce_sempre": "Controla através da culpa.",
+    "voce_nunca": "Permite independência real.",
+    "objetivo_imediato": "Manter poder absoluto.",
+    "gatilho_de_conflito": "Desobediência."
+  },
+  {
+    "id": 60,
+    "nome": "Cara de Bandido",
+    "tipo": "Aparência vs Realidade",
+    "quem_e": "Pessoa julgada como criminosa apenas pela aparência.",
+    "voce_sempre": "É mal interpretado.",
+    "voce_nunca": "Recebe o benefício da dúvida.",
+    "objetivo_imediato": "Provar que não é o vilão.",
+    "gatilho_de_conflito": "Acusações injustas."
+  },
+  {
+    "id": 61,
+    "nome": "Falso Herói Supremo",
+    "tipo": "Fraude",
+    "quem_e": "Indivíduo que finge ser um grande salvador.",
+    "voce_sempre": "Exagera conquistas.",
+    "voce_nunca": "Entrega resultados reais.",
+    "objetivo_imediato": "Manter a fama.",
+    "gatilho_de_conflito": "Ser colocado à prova."
+  },
+  {
+    "id": 62,
+    "nome": "Falso Profeta",
+    "tipo": "Manipulação",
+    "quem_e": "Líder carismático que espalha mentiras como verdade.",
+    "voce_sempre": "Fala com convicção.",
+    "voce_nunca": "Admite estar errado.",
+    "objetivo_imediato": "Manter seguidores fiéis.",
+    "gatilho_de_conflito": "Questionamento público."
+  },
+  {
+    "id": 63,
+    "nome": "Mulher Fatal",
+    "tipo": "Sedução / Perigo",
+    "quem_e": "Mulher sedutora que manipula para benefício próprio.",
+    "voce_sempre": "Usa charme estrategicamente.",
+    "voce_nunca": "Revela vulnerabilidade real.",
+    "objetivo_imediato": "Controlar a situação.",
+    "gatilho_de_conflito": "Perda de controle emocional."
+  },
+  {
+    "id": 64,
+    "nome": "Espiã Femme Fatale",
+    "tipo": "Espionagem / Sedução",
+    "quem_e": "Agente secreta que usa charme, inteligência e traição como ferramentas de trabalho.",
+    "voce_sempre": "Oculta suas verdadeiras intenções.",
+    "voce_nunca": "Confia totalmente em alguém.",
+    "objetivo_imediato": "Cumprir a missão sem ser desmascarada.",
+    "gatilho_de_conflito": "Envolvimento emocional inesperado."
+  },
+  {
+    "id": 65,
+    "nome": "Narcisista Lutador",
+    "tipo": "Ego / Conflito",
+    "quem_e": "Combatente que luta principalmente para alimentar o próprio ego.",
+    "voce_sempre": "Busca plateia e reconhecimento.",
+    "voce_nunca": "Age de forma humilde.",
+    "objetivo_imediato": "Provar que é o melhor.",
+    "gatilho_de_conflito": "Ser ofuscado por outro lutador."
+  },
+  {
+    "id": 66,
+    "nome": "Garota Fatal",
+    "tipo": "Perigo Oculto",
+    "quem_e": "Jovem manipuladora e perigosa por trás de uma aparência inocente.",
+    "voce_sempre": "Subestima os outros.",
+    "voce_nunca": "Age de forma direta.",
+    "objetivo_imediato": "Conseguir vantagem sem levantar suspeitas.",
+    "gatilho_de_conflito": "Ser tratada como frágil ou ingênua."
+  },
+  {
+    "id": 67,
+    "nome": "O Gourmet",
+    "tipo": "Estilo de Vida",
+    "quem_e": "Pessoa apaixonada por culinária refinada e experiências gastronômicas.",
+    "voce_sempre": "Analisa sabores e texturas.",
+    "voce_nunca": "Come por simples necessidade.",
+    "objetivo_imediato": "Encontrar uma experiência culinária memorável.",
+    "gatilho_de_conflito": "Comida mal preparada ou desrespeito à culinária."
+  },
+  {
+    "id": 68,
+    "nome": "Gênio das Engenhocas",
+    "tipo": "Intelecto / Tecnologia",
+    "quem_e": "Inventor brilhante que resolve problemas criando dispositivos engenhosos.",
+    "voce_sempre": "Improvisa soluções técnicas.",
+    "voce_nunca": "Segue métodos convencionais.",
+    "objetivo_imediato": "Fazer a invenção funcionar.",
+    "gatilho_de_conflito": "Falta de recursos ou tempo."
+  },
+  {
+    "id": 69,
+    "nome": "Gênia Tonta",
+    "tipo": "Contraste",
+    "quem_e": "Pessoa extremamente inteligente, mas socialmente distraída.",
+    "voce_sempre": "Perde detalhes sociais óbvios.",
+    "voce_nunca": "Percebe o impacto do próprio comportamento.",
+    "objetivo_imediato": "Resolver o problema intelectual.",
+    "gatilho_de_conflito": "Interações sociais complexas."
+  },
+  {
+    "id": 70,
+    "nome": "Caçador de Glória",
+    "tipo": "Ambição",
+    "quem_e": "Indivíduo que busca fama e reconhecimento a qualquer custo.",
+    "voce_sempre": "Se coloca no centro das atenções.",
+    "voce_nunca": "Aceita anonimato.",
+    "objetivo_imediato": "Ser reconhecido publicamente.",
+    "gatilho_de_conflito": "Alguém recebe o crédito em seu lugar."
+  },
+  {
+    "id": 71,
+    "nome": "Buscador de Glória",
+    "tipo": "Motivação",
+    "quem_e": "Personagem movido pelo desejo de feitos grandiosos.",
+    "voce_sempre": "Procura desafios épicos.",
+    "voce_nunca": "Se satisfaz com vitórias pequenas.",
+    "objetivo_imediato": "Realizar algo memorável.",
+    "gatilho_de_conflito": "Rotina ou falta de propósito."
+  },
+  {
+    "id": 72,
+    "nome": "Caça-Dotes",
+    "tipo": "Interesse Material",
+    "quem_e": "Pessoa que busca relacionamentos visando status e conforto financeiro.",
+    "voce_sempre": "Avalia benefícios materiais.",
+    "voce_nunca": "Se envolve sem ganho pessoal.",
+    "objetivo_imediato": "Garantir segurança e luxo.",
+    "gatilho_de_conflito": "Perda de status ou recursos."
+  },
+  {
+    "id": 73,
+    "nome": "Grande Dama",
+    "tipo": "Status / Tradição",
+    "quem_e": "Mulher aristocrática, elegante e imponente.",
+    "voce_sempre": "Mantém postura e dignidade.",
+    "voce_nunca": "Age de forma vulgar.",
+    "objetivo_imediato": "Preservar tradição e prestígio.",
+    "gatilho_de_conflito": "Quebra de etiqueta ou tradição."
+  },
+  {
+    "id": 74,
+    "nome": "Groupie",
+    "tipo": "Admiração Excessiva",
+    "quem_e": "Fã obcecado que busca proximidade com ídolos.",
+    "voce_sempre": "Segue e idolatra.",
+    "voce_nunca": "Mantém distância saudável.",
+    "objetivo_imediato": "Ser notado pelo ídolo.",
+    "gatilho_de_conflito": "Ser ignorado ou rejeitado."
+  },
+  {
+    "id": 75,
+    "nome": "Herói da Astúcia",
+    "tipo": "Protagonista",
+    "quem_e": "Herói que vence desafios com inteligência e truques.",
+    "voce_sempre": "Pensa antes de agir.",
+    "voce_nunca": "Confia apenas na força.",
+    "objetivo_imediato": "Superar o obstáculo atual.",
+    "gatilho_de_conflito": "Situações que exigem força bruta."
+  },
+  {
+    "id": 76,
+    "nome": "Gêmeos Semi-Idênticos",
+    "tipo": "Dinâmica de Relação",
+    "quem_e": "Irmãos gêmeos parecidos fisicamente, mas muito diferentes em personalidade.",
+    "voce_sempre": "É comparado ao outro.",
+    "voce_nunca": "Escapa da rivalidade.",
+    "objetivo_imediato": "Afirmação individual.",
+    "gatilho_de_conflito": "Confusão de identidades."
+  },
+  {
+    "id": 77,
+    "nome": "Tarado Bonitão",
+    "tipo": "Comportamento Social",
+    "quem_e": "Homem atraente com comportamento inconveniente e sem filtros.",
+    "voce_sempre": "Age de forma ousada.",
+    "voce_nunca": "Lê bem o ambiente.",
+    "objetivo_imediato": "Chamar atenção.",
+    "gatilho_de_conflito": "Ser confrontado por ultrapassar limites."
+  },
+  {
+    "id": 78,
+    "nome": "Detetive Durão",
+    "tipo": "Investigação",
+    "quem_e": "Investigador cínico, experiente e moralmente ambíguo.",
+    "voce_sempre": "Desconfia de todos.",
+    "voce_nunca": "Segue regras cegamente.",
+    "objetivo_imediato": "Resolver o caso.",
+    "gatilho_de_conflito": "Autoridades interferindo."
+  },
+  {
+    "id": 79,
+    "nome": "Buscador do Céu",
+    "tipo": "Espiritualidade",
+    "quem_e": "Pessoa obcecada por salvação ou transcendência.",
+    "voce_sempre": "Busca sentido maior.",
+    "voce_nunca": "Se contenta com o mundano.",
+    "objetivo_imediato": "Aproximar-se da redenção.",
+    "gatilho_de_conflito": "Ceticismo alheio."
+  },
+  {
+    "id": 80,
+    "nome": "Buscador do Inferno",
+    "tipo": "Autodestruição",
+    "quem_e": "Indivíduo atraído por caos e experiências extremas.",
+    "voce_sempre": "Testa limites.",
+    "voce_nunca": "Evita riscos.",
+    "objetivo_imediato": "Sentir algo intenso.",
+    "gatilho_de_conflito": "Tédio ou estabilidade."
+  },
+  {
+    "id": 81,
+    "nome": "Mulher de Carreira Poderosa",
+    "tipo": "Profissional",
+    "quem_e": "Mulher ambiciosa, competente e focada no sucesso.",
+    "voce_sempre": "Prioriza resultados.",
+    "voce_nunca": "Aceita ser subestimada.",
+    "objetivo_imediato": "Avançar na carreira.",
+    "gatilho_de_conflito": "Tentativas de deslegitimação."
+  },
+  {
+    "id": 82,
+    "nome": "Bardo Tarado",
+    "tipo": "Comic Relief",
+    "quem_e": "Artista carismático e talentoso, guiado por impulsos e desejos.",
+    "voce_sempre": "Flerta e exagera.",
+    "voce_nunca": "Leva tudo a sério.",
+    "objetivo_imediato": "Viver novas experiências.",
+    "gatilho_de_conflito": "Consequências do próprio comportamento."
+  },
+  {
+    "id": 83,
+    "nome": "Dono de Casa",
+    "tipo": "Cotidiano",
+    "quem_e": "Homem que assume o cuidado do lar como papel principal.",
+    "voce_sempre": "Cuida da casa e da rotina.",
+    "voce_nunca": "Desvaloriza o trabalho doméstico.",
+    "objetivo_imediato": "Manter o lar funcionando.",
+    "gatilho_de_conflito": "Desrespeito ao seu papel."
+  },
+  {
+    "id": 84,
+    "nome": "Dona de Casa",
+    "tipo": "Cotidiano",
+    "quem_e": "Mulher dedicada à administração do lar e da família.",
+    "voce_sempre": "Organiza e mantém o ambiente.",
+    "voce_nunca": "Ignora as necessidades da família.",
+    "objetivo_imediato": "Garantir estabilidade doméstica.",
+    "gatilho_de_conflito": "Desvalorização do trabalho invisível."
+  },
+  {
+    "id": 85,
+    "nome": "Sábio Idiota",
+    "tipo": "Contraste Cognitivo",
+    "quem_e": "Indivíduo com talento excepcional em uma área específica, mas com grandes limitações em outras.",
+    "voce_sempre": "Demonstra genialidade em um campo restrito.",
+    "voce_nunca": "Entende o quadro geral.",
+    "objetivo_imediato": "Aplicar sua habilidade especial.",
+    "gatilho_de_conflito": "Ser forçado a lidar com algo fora de sua especialidade."
+  },
+  {
+    "id": 86,
+    "nome": "Ignorante da Própria Ignorância",
+    "tipo": "Autoengano",
+    "quem_e": "Pessoa confiante em opiniões erradas, sem perceber o quanto sabe pouco.",
+    "voce_sempre": "Fala com convicção absoluta.",
+    "voce_nunca": "Questiona seu próprio conhecimento.",
+    "objetivo_imediato": "Convencer os outros de que está certo.",
+    "gatilho_de_conflito": "Ser confrontado por alguém realmente informado."
+  },
+  {
+    "id": 87,
+    "nome": "O Igor",
+    "tipo": "Servo Leal",
+    "quem_e": "Assistente excêntrico, submisso e devotado a um mestre mais poderoso ou cruel.",
+    "voce_sempre": "Obedece ordens sem questionar.",
+    "voce_nunca": "Age por conta própria.",
+    "objetivo_imediato": "Agradar seu mestre.",
+    "gatilho_de_conflito": "Qualquer ameaça à autoridade do mestre."
+  },
+  {
+    "id": 88,
+    "nome": "O Informante",
+    "tipo": "Informação / Sobrevivência",
+    "quem_e": "Fonte de segredos e informações sensíveis, geralmente motivada por medo ou dinheiro.",
+    "voce_sempre": "Sabe mais do que aparenta.",
+    "voce_nunca": "Revela tudo de uma vez.",
+    "objetivo_imediato": "Trocar informação por proteção ou vantagem.",
+    "gatilho_de_conflito": "Ser pressionado por múltiplos lados."
+  },
+  {
+    "id": 89,
+    "nome": "Mercador Intrépido",
+    "tipo": "Aventura / Comércio",
+    "quem_e": "Comerciante ousado que assume riscos elevados para lucrar.",
+    "voce_sempre": "Enxerga oportunidades onde há perigo.",
+    "voce_nunca": "Joga seguro.",
+    "objetivo_imediato": "Fechar um grande negócio.",
+    "gatilho_de_conflito": "Perda inesperada ou traição comercial."
+  },
+  {
+    "id": 90,
+    "nome": "Babaca",
+    "tipo": "Antipatia Social",
+    "quem_e": "Pessoa rude, insensível e desagradável sem remorso.",
+    "voce_sempre": "Trata os outros com desprezo.",
+    "voce_nunca": "Pede desculpas.",
+    "objetivo_imediato": "Impor sua vontade.",
+    "gatilho_de_conflito": "Ser desafiado ou contrariado."
+  },
+  {
+    "id": 91,
+    "nome": "Atleta Babaca",
+    "tipo": "Popularidade Tóxica",
+    "quem_e": "Esportista arrogante que usa status físico para intimidar.",
+    "voce_sempre": "Se gaba de força ou vitórias.",
+    "voce_nunca": "Demonstra empatia.",
+    "objetivo_imediato": "Manter superioridade social.",
+    "gatilho_de_conflito": "Perder prestígio ou ser derrotado."
+  },
+  {
+    "id": 92,
+    "nome": "Desastrado",
+    "tipo": "Comédia Física",
+    "quem_e": "Pessoa constantemente atrapalhada, causando acidentes involuntários.",
+    "voce_sempre": "Derruba, quebra ou tropeça.",
+    "voce_nunca": "Age com coordenação.",
+    "objetivo_imediato": "Passar ileso pela situação.",
+    "gatilho_de_conflito": "Ambientes delicados ou perigosos."
+  },
+  {
+    "id": 93,
+    "nome": "Sabe-Nada Sabichão",
+    "tipo": "Falsa Autoridade",
+    "quem_e": "Pessoa que fala com extrema confiança sobre assuntos que não domina.",
+    "voce_sempre": "Usa jargões vazios.",
+    "voce_nunca": "Admite ignorância.",
+    "objetivo_imediato": "Parecer inteligente.",
+    "gatilho_de_conflito": "Especialistas reais no assunto."
+  },
+  {
+    "id": 94,
+    "nome": "Cozinheiro Letal",
+    "tipo": "Caos Profissional",
+    "quem_e": "Chef cujo temperamento explosivo torna a cozinha perigosa.",
+    "voce_sempre": "Grita e exagera.",
+    "voce_nunca": "Mantém a calma.",
+    "objetivo_imediato": "Entregar o prato perfeito.",
+    "gatilho_de_conflito": "Erros, atrasos ou críticas."
+  },
+  {
+    "id": 95,
+    "nome": "Mente Literal",
+    "tipo": "Interpretação",
+    "quem_e": "Indivíduo que interpreta tudo ao pé da letra.",
+    "voce_sempre": "Entende palavras literalmente.",
+    "voce_nunca": "Capta ironia ou subtexto.",
+    "objetivo_imediato": "Cumprir instruções exatamente.",
+    "gatilho_de_conflito": "Ambiguidade ou sarcasmo."
+  },
+  {
+    "id": 96,
+    "nome": "Fã Maluco",
+    "tipo": "Obsessão",
+    "quem_e": "Admirador obsessivo que ultrapassa limites pessoais.",
+    "voce_sempre": "Idealiza o ídolo.",
+    "voce_nunca": "Respeita limites.",
+    "objetivo_imediato": "Aproximar-se do objeto de devoção.",
+    "gatilho_de_conflito": "Rejeição ou indiferença."
+  },
+  {
+    "id": 97,
+    "nome": "Cientista Maluco",
+    "tipo": "Ciência Perigosa",
+    "quem_e": "Pesquisador genial que ignora limites éticos.",
+    "voce_sempre": "Testa teorias arriscadas.",
+    "voce_nunca": "Considera consequências morais.",
+    "objetivo_imediato": "Provar sua hipótese.",
+    "gatilho_de_conflito": "Interferência externa ou ética."
+  },
+  {
+    "id": 98,
+    "nome": "Mestre Espadachim",
+    "tipo": "Combate",
+    "quem_e": "Guerreiro extremamente habilidoso com a espada.",
+    "voce_sempre": "Luta com precisão.",
+    "voce_nunca": "Subestima o duelo.",
+    "objetivo_imediato": "Vencer o confronto.",
+    "gatilho_de_conflito": "Desafios à sua honra ou técnica."
+  },
+  {
+    "id": 99,
+    "nome": "Matrona Acompanhante",
+    "tipo": "Controle Social",
+    "quem_e": "Mulher madura responsável por impor regras e decoro.",
+    "voce_sempre": "Fiscaliza comportamentos.",
+    "voce_nunca": "Relaxa as normas.",
+    "objetivo_imediato": "Manter a ordem social.",
+    "gatilho_de_conflito": "Quebra de etiqueta."
+  },
+  {
+    "id": 100,
+    "nome": "Prefeito Tirano",
+    "tipo": "Autoridade Corrupta",
+    "quem_e": "Governante local abusivo e corrupto.",
+    "voce_sempre": "Abusa do poder.",
+    "voce_nunca": "Age com justiça.",
+    "objetivo_imediato": "Manter controle absoluto.",
+    "gatilho_de_conflito": "Ameaças à sua autoridade."
+  },
+  {
+    "id": 101,
+    "nome": "Soldado Fanfarão",
+    "tipo": "Vaidade",
+    "quem_e": "Guerreiro que se gaba de feitos reais ou inventados.",
+    "voce_sempre": "Exagera histórias.",
+    "voce_nunca": "Reconhece fraquezas.",
+    "objetivo_imediato": "Impressionar os outros.",
+    "gatilho_de_conflito": "Ser desmentido publicamente."
+  },
+  {
+    "id": 102,
+    "nome": "O Mais Procurado",
+    "tipo": "Fugitivo",
+    "quem_e": "Criminoso amplamente caçado pelas autoridades.",
+    "voce_sempre": "Está em fuga.",
+    "voce_nunca": "Se sente seguro.",
+    "objetivo_imediato": "Escapar da captura.",
+    "gatilho_de_conflito": "Caçadores ou armadilhas."
+  },
+  {
+    "id": 103,
+    "nome": "Narcisista",
+    "tipo": "Ego",
+    "quem_e": "Pessoa obcecada por si mesma e por admiração constante.",
+    "voce_sempre": "Fala de si.",
+    "voce_nunca": "Escuta de verdade.",
+    "objetivo_imediato": "Receber validação.",
+    "gatilho_de_conflito": "Ser ignorado."
+  },
+  {
+    "id": 104,
+    "nome": "Cara Legal",
+    "tipo": "Expectativa Social",
+    "quem_e": "Homem educado que espera reconhecimento por sua gentileza.",
+    "voce_sempre": "Age com educação.",
+    "voce_nunca": "Expressa frustração abertamente.",
+    "objetivo_imediato": "Ser valorizado.",
+    "gatilho_de_conflito": "Sentir-se injustiçado ou invisível."
+  },
+  {
+    "id": 105,
+    "nome": "O Apelidador",
+    "tipo": "Dinâmica Social",
+    "quem_e": "Pessoa que dá apelidos a todos, moldando identidades sociais dentro do grupo.",
+    "voce_sempre": "Cria rótulos memoráveis para os outros.",
+    "voce_nunca": "Usa o nome original das pessoas por muito tempo.",
+    "objetivo_imediato": "Definir seu lugar social por meio dos apelidos.",
+    "gatilho_de_conflito": "Alguém rejeitar ou se ofender com o apelido."
+  },
+  {
+    "id": 106,
+    "nome": "Dona de Casa Entitulada e Irritante",
+    "tipo": "Entitlement Social",
+    "quem_e": "Mulher arrogante que acredita merecer privilégios especiais em qualquer situação.",
+    "voce_sempre": "Exige tratamento diferenciado.",
+    "voce_nunca": "Aceita um não como resposta.",
+    "objetivo_imediato": "Ser atendida antes dos outros.",
+    "gatilho_de_conflito": "Ser tratada como igual."
+  },
+  {
+    "id": 107,
+    "nome": "Cozinheiro de Uma Nota Só",
+    "tipo": "Especialização",
+    "quem_e": "Chef que domina perfeitamente apenas um único prato.",
+    "voce_sempre": "Oferece o mesmo prato.",
+    "voce_nunca": "Experimenta algo novo.",
+    "objetivo_imediato": "Provar que seu prato é imbatível.",
+    "gatilho_de_conflito": "Pedidos por variedade."
+  },
+  {
+    "id": 108,
+    "nome": "Pai/Mãe de Mente Aberta",
+    "tipo": "Suporte Emocional",
+    "quem_e": "Figura parental compreensiva, tolerante e acolhedora.",
+    "voce_sempre": "Escuta sem julgar.",
+    "voce_nunca": "Impõe escolhas pessoais.",
+    "objetivo_imediato": "Manter o diálogo aberto.",
+    "gatilho_de_conflito": "Alguém ferir ou ameaçar quem você protege."
+  },
+  {
+    "id": 109,
+    "nome": "Amigos Educados Demais",
+    "tipo": "Contraste Social",
+    "quem_e": "Grupo excessivamente formal e cordial, mesmo em situações absurdas.",
+    "voce_sempre": "Mantém boas maneiras extremas.",
+    "voce_nunca": "Quebra a etiqueta.",
+    "objetivo_imediato": "Evitar qualquer constrangimento.",
+    "gatilho_de_conflito": "Situações que exigem franqueza."
+  },
+  {
+    "id": 110,
+    "nome": "Potência em Tamanho Pequeno",
+    "tipo": "Contraste Físico",
+    "quem_e": "Personagem pequeno em estatura, mas extremamente forte ou capaz.",
+    "voce_sempre": "Surpreende com força ou habilidade.",
+    "voce_nunca": "Se deixa intimidar pelo tamanho dos outros.",
+    "objetivo_imediato": "Provar sua capacidade.",
+    "gatilho_de_conflito": "Ser subestimado."
+  },
+  {
+    "id": 111,
+    "nome": "Alívio Cômico Corajoso",
+    "tipo": "Humor em Crise",
+    "quem_e": "Personagem otimista que usa humor e bravura para aliviar a tensão.",
+    "voce_sempre": "Faz piadas sob pressão.",
+    "voce_nunca": "Desiste facilmente.",
+    "objetivo_imediato": "Manter o moral alto.",
+    "gatilho_de_conflito": "Perigo real para pessoas queridas."
+  },
+  {
+    "id": 112,
+    "nome": "Funcionária de Escritório Destemida",
+    "tipo": "Determinação Cotidiana",
+    "quem_e": "Trabalhadora comum que enfrenta o sistema com energia e improviso.",
+    "voce_sempre": "Toma iniciativa.",
+    "voce_nunca": "Aceita passivamente ordens injustas.",
+    "objetivo_imediato": "Resolver o problema do dia.",
+    "gatilho_de_conflito": "Autoridade abusiva."
+  },
+  {
+    "id": 113,
+    "nome": "Chefe de Cabelo Espetado",
+    "tipo": "Liderança Tóxica",
+    "quem_e": "Gerente incompetente, autoritário e desconectado da realidade.",
+    "voce_sempre": "Toma decisões ruins com confiança.",
+    "voce_nunca": "Escuta a equipe.",
+    "objetivo_imediato": "Manter aparência de controle.",
+    "gatilho_de_conflito": "Resultados negativos."
+  },
+  {
+    "id": 114,
+    "nome": "Líder de Torcida",
+    "tipo": "Entusiasmo",
+    "quem_e": "Pessoa energética e obcecada por motivar os outros.",
+    "voce_sempre": "Incentiva com entusiasmo exagerado.",
+    "voce_nunca": "Reconhece desânimo.",
+    "objetivo_imediato": "Levantar o ânimo do grupo.",
+    "gatilho_de_conflito": "Cinismo ou apatia."
+  },
+  {
+    "id": 115,
+    "nome": "Apoiador Psicótico",
+    "tipo": "Lealdade Perigosa",
+    "quem_e": "Aliado extremamente leal, porém instável e violento.",
+    "voce_sempre": "Defende seus aliados com intensidade.",
+    "voce_nunca": "Mede consequências.",
+    "objetivo_imediato": "Proteger quem admira.",
+    "gatilho_de_conflito": "Qualquer ameaça ao seu ídolo."
+  },
+  {
+    "id": 116,
+    "nome": "O Quarterback",
+    "tipo": "Liderança Competitiva",
+    "quem_e": "Líder confiante e carismático, acostumado a comandar sob pressão.",
+    "voce_sempre": "Assume o controle.",
+    "voce_nunca": "Mostra hesitação.",
+    "objetivo_imediato": "Levar o time à vitória.",
+    "gatilho_de_conflito": "Perda de liderança ou autoridade."
+  },
+  {
+    "id": 117,
+    "nome": "Excêntrico de Camisa Havaiana",
+    "tipo": "Quebra de Normas",
+    "quem_e": "Figura relaxada e imprevisível que ignora convenções sociais.",
+    "voce_sempre": "Age fora do padrão.",
+    "voce_nunca": "Segue protocolos.",
+    "objetivo_imediato": "Manter leveza e liberdade.",
+    "gatilho_de_conflito": "Ambientes rígidos ou formais."
+  },
+  {
+    "id": 118,
+    "nome": "O Rival",
+    "tipo": "Competição",
+    "quem_e": "Oponente direto movido pela necessidade de superar o protagonista.",
+    "voce_sempre": "Compara resultados.",
+    "voce_nunca": "Aceita ficar em segundo lugar.",
+    "objetivo_imediato": "Vencer o rival.",
+    "gatilho_de_conflito": "Qualquer sucesso do oponente."
+  },
+  {
+    "id": 119,
+    "nome": "Roadie",
+    "tipo": "Bastidores",
+    "quem_e": "Trabalhador prático e cínico que mantém o espetáculo funcionando.",
+    "voce_sempre": "Resolve problemas técnicos.",
+    "voce_nunca": "Busca os holofotes.",
+    "objetivo_imediato": "Garantir que tudo funcione.",
+    "gatilho_de_conflito": "Artistas irresponsáveis."
+  },
+  {
+    "id": 120,
+    "nome": "Rock Star",
+    "tipo": "Fama",
+    "quem_e": "Artista carismático e intenso que vive entre fama e excessos.",
+    "voce_sempre": "Atrai atenção.",
+    "voce_nunca": "Passa despercebido.",
+    "objetivo_imediato": "Manter relevância.",
+    "gatilho_de_conflito": "Queda de popularidade."
+  },
+  {
+    "id": 121,
+    "nome": "O Pão-Duro",
+    "tipo": "Avareza",
+    "quem_e": "Pessoa obcecada por dinheiro e controle financeiro.",
+    "voce_sempre": "Economiza ao extremo.",
+    "voce_nunca": "Gasta sem retorno.",
+    "objetivo_imediato": "Acumular recursos.",
+    "gatilho_de_conflito": "Despesas inesperadas."
+  },
+  {
+    "id": 122,
+    "nome": "Romeu em Série",
+    "tipo": "Sedução",
+    "quem_e": "Sedutor compulsivo envolvido em múltiplos romances superficiais.",
+    "voce_sempre": "Flerta com facilidade.",
+    "voce_nunca": "Se compromete.",
+    "objetivo_imediato": "Conquistar alguém novo.",
+    "gatilho_de_conflito": "Ser confrontado por antigos relacionamentos."
+  },
+  {
+    "id": 123,
+    "nome": "O Terapeuta",
+    "tipo": "Análise Psicológica",
+    "quem_e": "Psicólogo que interpreta obsessivamente comportamentos alheios.",
+    "voce_sempre": "Analisa tudo.",
+    "voce_nunca": "Desliga o olhar clínico.",
+    "objetivo_imediato": "Explicar o comportamento dos outros.",
+    "gatilho_de_conflito": "Ser analisado contra a vontade."
+  },
+  {
+    "id": 124,
+    "nome": "Violeta Encolhida",
+    "tipo": "Insegurança",
+    "quem_e": "Pessoa tímida e insegura, facilmente apagada pelos outros.",
+    "voce_sempre": "Evita chamar atenção.",
+    "voce_nunca": "Se impõe.",
+    "objetivo_imediato": "Passar despercebida.",
+    "gatilho_de_conflito": "Ser colocada no centro das atenções."
+  },
+  {
+    "id": 125,
+    "nome": "Geek Doente e Neurótico",
+    "tipo": "Ansiedade",
+    "quem_e": "Intelectual ansioso, fisicamente frágil e socialmente paranoico.",
+    "voce_sempre": "Prevê o pior cenário.",
+    "voce_nunca": "Relaxa completamente.",
+    "objetivo_imediato": "Evitar riscos.",
+    "gatilho_de_conflito": "Ambientes caóticos ou imprevisíveis."
+  },
+  {
+    "id": 126,
+    "nome": "Proprietário de Um Problema Só",
+    "tipo": "Obsessão Social",
+    "quem_e": "Dono que reduz toda interação a uma única regra ou reclamação específica.",
+    "voce_sempre": "Traz a conversa de volta ao mesmo assunto.",
+    "voce_nunca": "Reconhece outros problemas como relevantes.",
+    "objetivo_imediato": "Impor sua única regra.",
+    "gatilho_de_conflito": "Alguém minimizar ou ignorar sua obsessão."
+  },
+  {
+    "id": 127,
+    "nome": "Babaca Inteligente e Idiota Gentil",
+    "tipo": "Contraste Moral",
+    "quem_e": "Dupla onde um é cruel e esperto, o outro burro porém bondoso.",
+    "voce_sempre": "Age em oposição direta ao outro.",
+    "voce_nunca": "Chega à mesma conclusão pelo mesmo motivo.",
+    "objetivo_imediato": "Provar que seu jeito é o correto.",
+    "gatilho_de_conflito": "Alguém elogiar o outro membro da dupla."
+  },
+  {
+    "id": 128,
+    "nome": "Cavaleiro Sarcástico",
+    "tipo": "Cinismo Heroico",
+    "quem_e": "Herói habilidoso que enfrenta tudo com ironia.",
+    "voce_sempre": "Faz comentários sarcásticos.",
+    "voce_nunca": "Leva algo com solenidade.",
+    "objetivo_imediato": "Vencer sem se envolver emocionalmente.",
+    "gatilho_de_conflito": "Exigirem sinceridade ou idealismo."
+  },
+  {
+    "id": 129,
+    "nome": "Dama do Sul",
+    "tipo": "Etiqueta Social",
+    "quem_e": "Mulher charmosa, tradicional e passivo-agressiva.",
+    "voce_sempre": "Mantém boas maneiras mesmo atacando.",
+    "voce_nunca": "Confronta diretamente.",
+    "objetivo_imediato": "Preservar decoro e status.",
+    "gatilho_de_conflito": "Quebra de tradição ou grosseria."
+  },
+  {
+    "id": 130,
+    "nome": "Demônio da Velocidade",
+    "tipo": "Impulsividade",
+    "quem_e": "Pessoa viciada em rapidez e adrenalina.",
+    "voce_sempre": "Age antes de pensar.",
+    "voce_nunca": "Espera com paciência.",
+    "objetivo_imediato": "Ir mais rápido que todos.",
+    "gatilho_de_conflito": "Atrasos ou cautela excessiva."
+  },
+  {
+    "id": 131,
+    "nome": "Competidor Cheio de Garra",
+    "tipo": "Competitividade",
+    "quem_e": "Indivíduo movido por superação constante.",
+    "voce_sempre": "Transforma tudo em disputa.",
+    "voce_nunca": "Aceita perder sem reagir.",
+    "objetivo_imediato": "Provar seu valor.",
+    "gatilho_de_conflito": "Ser subestimado."
+  },
+  {
+    "id": 132,
+    "nome": "Mágico de Palco",
+    "tipo": "Vaidade Artística",
+    "quem_e": "Ilusionista teatral e carente de aplausos.",
+    "voce_sempre": "Busca atenção.",
+    "voce_nunca": "Age nos bastidores.",
+    "objetivo_imediato": "Impressionar o público.",
+    "gatilho_de_conflito": "Alguém ignorar ou revelar o truque."
+  },
+  {
+    "id": 133,
+    "nome": "Artista Faminto",
+    "tipo": "Idealismo",
+    "quem_e": "Criador talentoso que vive em dificuldade financeira.",
+    "voce_sempre": "Defende sua arte.",
+    "voce_nunca": "Coloca dinheiro acima da criação.",
+    "objetivo_imediato": "Sobreviver sem se vender.",
+    "gatilho_de_conflito": "Pressão para comercializar sua obra."
+  },
+  {
+    "id": 134,
+    "nome": "Estudante Quebrado",
+    "tipo": "Sobrevivência Cotidiana",
+    "quem_e": "Aluno exausto e sem recursos.",
+    "voce_sempre": "Calcula gastos mínimos.",
+    "voce_nunca": "Se sente financeiramente seguro.",
+    "objetivo_imediato": "Chegar ao próximo prazo.",
+    "gatilho_de_conflito": "Custos inesperados."
+  },
+  {
+    "id": 135,
+    "nome": "Nerd Estereotípico",
+    "tipo": "Inaptidão Social",
+    "quem_e": "Intelectual obcecado por conhecimento técnico.",
+    "voce_sempre": "Corrige os outros.",
+    "voce_nunca": "Percebe o clima social.",
+    "objetivo_imediato": "Demonstrar conhecimento.",
+    "gatilho_de_conflito": "Erros factuais."
+  },
+  {
+    "id": 136,
+    "nome": "Bad Boy dos Anos 90",
+    "tipo": "Rebeldia Estilizada",
+    "quem_e": "Rebelde sarcástico e emocionalmente fechado.",
+    "voce_sempre": "Age com desdém.",
+    "voce_nunca": "Mostra vulnerabilidade.",
+    "objetivo_imediato": "Manter controle emocional.",
+    "gatilho_de_conflito": "Tentativas de intimidade."
+  },
+  {
+    "id": 137,
+    "nome": "Dublê",
+    "tipo": "Coragem Física",
+    "quem_e": "Profissional acostumado a riscos extremos.",
+    "voce_sempre": "Minimiza o perigo.",
+    "voce_nunca": "Recusa um desafio físico.",
+    "objetivo_imediato": "Executar a manobra.",
+    "gatilho_de_conflito": "Alguém questionar sua coragem."
+  },
+  {
+    "id": 138,
+    "nome": "Chef Supremo",
+    "tipo": "Perfeccionismo",
+    "quem_e": "Cozinheiro genial e autoritário.",
+    "voce_sempre": "Exige excelência absoluta.",
+    "voce_nunca": "Tolera erros.",
+    "objetivo_imediato": "Criar o prato perfeito.",
+    "gatilho_de_conflito": "Falhas mínimas."
+  },
+  {
+    "id": 139,
+    "nome": "Hóspede Simbólico",
+    "tipo": "Deslocamento Social",
+    "quem_e": "Pessoa incluída apenas por obrigação.",
+    "voce_sempre": "Se sente fora do lugar.",
+    "voce_nunca": "Toma decisões centrais.",
+    "objetivo_imediato": "Evitar constrangimento.",
+    "gatilho_de_conflito": "Ser forçado a opinar."
+  },
+  {
+    "id": 140,
+    "nome": "Moleca",
+    "tipo": "Não Conformidade",
+    "quem_e": "Pessoa prática e avessa a convenções.",
+    "voce_sempre": "Age de forma direta.",
+    "voce_nunca": "Segue expectativas tradicionais.",
+    "objetivo_imediato": "Resolver o problema.",
+    "gatilho_de_conflito": "Imposição de normas sociais."
+  },
+  {
+    "id": 141,
+    "nome": "Cliente Insaciável",
+    "tipo": "Insatisfação",
+    "quem_e": "Pessoa que nunca fica satisfeita.",
+    "voce_sempre": "Aponta defeitos.",
+    "voce_nunca": "Reconhece esforço alheio.",
+    "objetivo_imediato": "Receber algo melhor.",
+    "gatilho_de_conflito": "Qualquer solução oferecida."
+  },
+  {
+    "id": 142,
+    "nome": "Riquinho Idiota",
+    "tipo": "Privilégio Social",
+    "quem_e": "Membro mimado da elite.",
+    "voce_sempre": "Exige conforto.",
+    "voce_nunca": "Reconhece sua bolha.",
+    "objetivo_imediato": "Manter status.",
+    "gatilho_de_conflito": "Ser tratado como igual."
+  },
+  {
+    "id": 143,
+    "nome": "Esposa Desanimadora",
+    "tipo": "Freio Emocional",
+    "quem_e": "Pessoa pessimista que corta entusiasmo.",
+    "voce_sempre": "Aponta riscos.",
+    "voce_nunca": "Se empolga.",
+    "objetivo_imediato": "Evitar decepções.",
+    "gatilho_de_conflito": "Planos otimistas."
+  },
+  {
+    "id": 144,
+    "nome": "Trabalhador de Colarinho Branco",
+    "tipo": "Burocracia",
+    "quem_e": "Funcionário focado em regras e processos.",
+    "voce_sempre": "Segue protocolos.",
+    "voce_nunca": "Improvisa.",
+    "objetivo_imediato": "Manter a ordem institucional.",
+    "gatilho_de_conflito": "Quebra de procedimento."
+  },
+  {
+    "id": 145,
+    "nome": "Bruxa Malvada",
+    "tipo": "Antagonismo",
+    "quem_e": "Figura poderosa e manipuladora.",
+    "voce_sempre": "Explora fraquezas.",
+    "voce_nunca": "Age com compaixão.",
+    "objetivo_imediato": "Controlar os outros.",
+    "gatilho_de_conflito": "Desafio à sua autoridade."
+  }
+]
