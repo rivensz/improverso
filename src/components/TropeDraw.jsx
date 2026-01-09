@@ -121,7 +121,7 @@ const TropeDraw = () => {
                       <strong>{t.nome}</strong> - <small>{t.tipo}</small>
                     </summary>
                     
-                    <div style={{ marginTop: "10px", fontSize: "0.9em", paddingLeft: "15px", borderLeft: "2px solid #ccc" }}>
+                    <div style={{ marginTop: "10px", fontSize: "0.9em", paddingLeft: "15px" }}>
                       <p><strong>Quem é:</strong> {t.quem_e}</p>
                       <p><strong>Você sempre:</strong> {t.voce_sempre}</p>
                       <p><strong>Você nunca:</strong> {t.voce_nunca}</p>
