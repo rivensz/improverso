@@ -98,16 +98,41 @@ const TropeDraw = () => {
         </div>
       )}
 
+      {/* Seção de Histórico Global com Dropdown */}
       {globalTropeHistory.length > 0 && (
         <div style={{ marginTop: "20px" }}>
-          <h3>Histórico Global:</h3>
-          <ul>
-            {globalTropeHistory.map((t, index) => (
-              <li key={index}>
-                <strong>{t.nome}</strong> ({t.tipo})
-              </li>
-            ))}
-          </ul>
+          <details style={{ cursor: "pointer" }}>
+            <summary style={{ fontSize: "1.17em", fontWeight: "bold", marginBottom: "10px" }}>
+              Exibir Histórico Global ({globalTropeHistory.length})
+            </summary>
+            
+            <div style={{ 
+              maxHeight: "500px", // Aumentei um pouco a altura para acomodar os detalhes
+              overflowY: "auto", 
+              border: "1px solid #eee", 
+              padding: "10px", 
+              borderRadius: "5px",
+              marginTop: "10px"
+            }}>
+              <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+                {globalTropeHistory.slice().reverse().map((t, index) => (
+                  <details key={index} style={{ border: "1px solid #f0f0f0", padding: "8px", borderRadius: "5px" }}>
+                    <summary style={{ fontWeight: "500" }}>
+                      <strong>{t.nome}</strong> - <small>{t.tipo}</small>
+                    </summary>
+                    
+                    <div style={{ marginTop: "10px", fontSize: "0.9em", paddingLeft: "15px", borderLeft: "2px solid #ccc" }}>
+                      <p><strong>Quem é:</strong> {t.quem_e}</p>
+                      <p><strong>Você sempre:</strong> {t.voce_sempre}</p>
+                      <p><strong>Você nunca:</strong> {t.voce_nunca}</p>
+                      <p><strong>Objetivo imediato:</strong> {t.objetivo_imediato}</p>
+                      <p><strong>Gatilho de conflito:</strong> {t.gatilho_de_conflito}</p>
+                    </div>
+                  </details>
+                ))}
+              </div>
+            </div>
+          </details>
         </div>
       )}
     </div>
