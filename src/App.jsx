@@ -4,6 +4,8 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 import PlayerDraw from "./components/PlayerDraw";
 import TropeDraw from "./components/TropeDraw";
+import HistoricalCardDraw from "./components/HistoricalCardDraw";
+
 
 function App() {
   return (
@@ -17,6 +19,10 @@ function App() {
             <Link to="/tropes" style={{ textDecoration: "none", color: "blue" }}>
               Sorteio de Personagens
             </Link>
+            <Link to="/historicas" style={{ textDecoration: "none", color: "blue" }}>
+              Sorteio de Cartas Históricas
+            </Link>
+
           </nav>
         </header>
 
@@ -24,6 +30,7 @@ function App() {
           <Routes>
             <Route path="/" element={<PlayerDraw />} />
             <Route path="/tropes" element={<TropeDraw />} />
+            <Route path="/historicas" element={<HistoricalCardDraw />} />
           </Routes>
         </main>
       </div>

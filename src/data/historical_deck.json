@@ -1,0 +1,877 @@
+{
+  "deck_name": "Major Events – Improviso Histórico",
+  "version": "1.0",
+  "cards": [
+    {
+      "id": "VE_01",
+      "tipo": "virada_era",
+      "nome": "Nascimento da Escrita",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Surgimento da escrita"
+      ],
+      "efeito_em_cena": "O que não é escrito não existe oficialmente.",
+      "regras": [
+        "Registros passam a definir a verdade.",
+        "Quem controla a escrita ganha poder."
+      ]
+    },
+    {
+      "id": "VE_02",
+      "tipo": "virada_era",
+      "nome": "Colapso de Império",
+      "peso_dramatico": 5,
+      "inspiracao": [
+        "Queda de grandes impérios"
+      ],
+      "efeito_em_cena": "A autoridade central desaparece.",
+      "regras": [
+        "Títulos perdem valor.",
+        "Vácuo de poder se instala."
+      ]
+    },
+    {
+      "id": "VE_03",
+      "tipo": "virada_era",
+      "nome": "Idade das Trevas",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Perda de registros históricos"
+      ],
+      "efeito_em_cena": "O passado vira mito.",
+      "regras": [
+        "Versões conflitantes da história surgem."
+      ]
+    },
+    {
+      "id": "VE_04",
+      "tipo": "virada_era",
+      "nome": "Renascimento Cultural",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Renascimento europeu"
+      ],
+      "efeito_em_cena": "O passado inspira o futuro.",
+      "regras": [
+        "Ideias antigas ganham prestígio."
+      ]
+    },
+    {
+      "id": "VE_05",
+      "tipo": "virada_era",
+      "nome": "Revolução Intelectual",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Iluminismo"
+      ],
+      "efeito_em_cena": "Pensar diferente ameaça a ordem.",
+      "regras": [
+        "Autoridade é questionada."
+      ]
+    },
+    {
+      "id": "VE_06",
+      "tipo": "virada_era",
+      "nome": "Revolução Tecnológica",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Industrialização"
+      ],
+      "efeito_em_cena": "Tecnologia muda o poder.",
+      "regras": [
+        "Quem domina a técnica lidera."
+      ]
+    },
+    {
+      "id": "VE_07",
+      "tipo": "virada_era",
+      "nome": "Expansão Global",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Grandes navegações"
+      ],
+      "efeito_em_cena": "O mundo se conecta.",
+      "regras": [
+        "Choques culturais surgem."
+      ]
+    },
+    {
+      "id": "VE_08",
+      "tipo": "virada_era",
+      "nome": "Era das Máquinas",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Revolução Industrial"
+      ],
+      "efeito_em_cena": "Eficiência vale mais que pessoas.",
+      "regras": [
+        "Produtividade é exigida."
+      ]
+    },
+    {
+      "id": "VE_09",
+      "tipo": "virada_era",
+      "nome": "Mundo em Guerra",
+      "peso_dramatico": 5,
+      "inspiracao": [
+        "Guerras mundiais"
+      ],
+      "efeito_em_cena": "Não há neutralidade.",
+      "regras": [
+        "Todos escolhem lados."
+      ]
+    },
+    {
+      "id": "VE_10",
+      "tipo": "virada_era",
+      "nome": "Mundo Conectado",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Internet"
+      ],
+      "efeito_em_cena": "A informação se espalha rápido.",
+      "regras": [
+        "Narrativas fogem do controle."
+      ]
+    },
+
+    {
+      "id": "EV_01",
+      "tipo": "evento",
+      "nome": "Pandemia",
+      "peso_dramatico": 4,
+      "inspiracao": ["Praga de Justiniano", "Peste Negra", "pandemias históricas"],
+      "efeito_em_cena": "A morte é invisível, constante e imprevisível.",
+      "regras": [
+        "Personagens evitam contato físico e proximidade desnecessária.",
+        "Toda decisão é atravessada por medo ou urgência.",
+        "Alguém recebe uma notícia de perda fora de cena."
+      ]
+    },
+    {
+      "id": "EV_02",
+      "tipo": "evento",
+      "nome": "Migração em Massa",
+      "peso_dramatico": 3,
+      "inspiracao": ["migrações indo-europeias", "migrações germânicas", "migrações bantu"],
+      "efeito_em_cena": "Novas pessoas e costumes entram no território e reconfiguram o equilíbrio social.",
+      "regras": [
+        "Um personagem é visto como 'de fora' (ou trata alguém como 'de fora').",
+        "Costumes e linguagem geram mal-entendidos imediatos.",
+        "O grupo precisa decidir entre assimilação, segregação ou conflito."
+      ]
+    },
+    {
+      "id": "EV_03",
+      "tipo": "evento",
+      "nome": "Fome Generalizada",
+      "peso_dramatico": 4,
+      "inspiracao": ["secas e crises agrícolas", "fomes medievais", "colapsos de abastecimento"],
+      "efeito_em_cena": "Recursos não bastam para todos — cada escolha custa caro.",
+      "regras": [
+        "Algo essencial está faltando (comida, água, remédio, abrigo).",
+        "Um personagem precisa escolher quem será beneficiado.",
+        "Conflitos morais surgem e ninguém sai limpo."
+      ]
+    },
+    {
+      "id": "EV_04",
+      "tipo": "evento",
+      "nome": "Conquista Militar",
+      "peso_dramatico": 4,
+      "inspiracao": ["impérios assírios", "conquistas de Alexandre", "conquistas romanas", "império mongol"],
+      "efeito_em_cena": "A força muda o mapa e redefine quem manda.",
+      "regras": [
+        "Um personagem impõe novas regras pela força ou ameaça.",
+        "Outro personagem perde autonomia e tenta resistir ou sobreviver.",
+        "A cena deve mostrar ao menos um custo humano claro."
+      ]
+    },
+    {
+      "id": "EV_05",
+      "tipo": "evento",
+      "nome": "Rebelião Popular",
+      "peso_dramatico": 3,
+      "inspiracao": ["revoltas camponesas", "revoluções democráticas", "Revolução Francesa"],
+      "efeito_em_cena": "A base da sociedade se levanta contra o topo.",
+      "regras": [
+        "Autoridade é questionada publicamente.",
+        "Um personagem fala 'em nome do povo' (mesmo que oportunista).",
+        "A ordem antiga se fragiliza e algo quebra sem volta."
+      ]
+    },
+    {
+      "id": "EV_06",
+      "tipo": "evento",
+      "nome": "Queda de Dinastia",
+      "peso_dramatico": 3,
+      "inspiracao": ["quedas de dinastias chinesas", "colapsos de casas reais", "mudanças de linhagem"],
+      "efeito_em_cena": "O poder herdado perde legitimidade — e o futuro vira disputa.",
+      "regras": [
+        "Títulos e brasões não garantem obediência.",
+        "Começa uma disputa de sucessão (aberta ou velada).",
+        "Um segredo de família vem à tona e muda alianças."
+      ]
+    },
+    {
+      "id": "EV_07",
+      "tipo": "evento",
+      "nome": "Descoberta de Novo Mundo",
+      "peso_dramatico": 3,
+      "inspiracao": ["expansão marítima europeia", "Colombo e o Atlântico", "explorações e rotas"],
+      "efeito_em_cena": "Algo desconhecido surge e muda rotas, desejos e ambições.",
+      "regras": [
+        "Um personagem apresenta algo novo (mapa, recurso, povo, caminho).",
+        "Outro personagem vê oportunidade — ou ameaça existencial.",
+        "Curiosidade e exploração entram em choque."
+      ]
+    },
+    {
+      "id": "EV_08",
+      "tipo": "evento",
+      "nome": "Unificação Política",
+      "peso_dramatico": 2,
+      "inspiracao": ["unificações imperiais na China", "formação de estados-nação", "unificação da Alemanha"],
+      "efeito_em_cena": "Territórios fragmentados viram um só — autonomia vira passado.",
+      "regras": [
+        "Autoridades locais perdem poder real.",
+        "Surge uma regra única que vale para todos.",
+        "Identidades regionais entram em crise."
+      ]
+    },
+    {
+      "id": "EV_09",
+      "tipo": "evento",
+      "nome": "Cisma Religioso",
+      "peso_dramatico": 3,
+      "inspiracao": ["Reforma Protestante", "divisões doutrinárias", "conflitos entre ortodoxia e heresia"],
+      "efeito_em_cena": "A fé se divide e arrasta famílias, cidades e alianças.",
+      "regras": [
+        "Dois personagens seguem crenças incompatíveis.",
+        "Uma antiga aliança se rompe por motivo moral.",
+        "Uma decisão precisa ser tomada 'por consciência' (com custo)."
+      ]
+    },
+    {
+      "id": "EV_10",
+      "tipo": "evento",
+      "nome": "Colapso Econômico",
+      "peso_dramatico": 3,
+      "inspiracao": ["crises comerciais", "quebra de sistemas de crédito", "colapsos de abastecimento e moeda"],
+      "efeito_em_cena": "O sistema parou de funcionar — promessas viram poeira.",
+      "regras": [
+        "Uma dívida deixa de ser paga ou perde sentido.",
+        "Um personagem perde status, segurança ou propriedade.",
+        "A cena deve mostrar quem se beneficia do caos."
+      ]
+    },
+    {
+      "id": "EV_11",
+      "tipo": "evento",
+      "nome": "Expansão Comercial",
+      "peso_dramatico": 2,
+      "inspiracao": ["Rota da Seda", "mercantilismo", "expansão atlântica de comércio"],
+      "efeito_em_cena": "Tudo pode virar mercadoria e o valor das coisas muda.",
+      "regras": [
+        "Um personagem oferece uma troca tentadora (ou injusta).",
+        "Outro personagem é forçado a negociar algo que não queria vender.",
+        "A cena deve ter um preço moral."
+      ]
+    },
+    {
+      "id": "EV_12",
+      "tipo": "evento",
+      "nome": "Tratado Histórico",
+      "peso_dramatico": 2,
+      "inspiracao": ["tratados de paz", "acordos de divisão territorial", "negociações entre elites"],
+      "efeito_em_cena": "Um acordo redefine fronteiras e destinos — nem todos participaram.",
+      "regras": [
+        "A decisão é tomada por poucos e afeta muitos.",
+        "Alguém é traído pela assinatura.",
+        "Surge ressentimento imediato."
+      ]
+    },
+    {
+      "id": "EV_13",
+      "tipo": "evento",
+      "nome": "Colonização",
+      "peso_dramatico": 4,
+      "inspiracao": ["colonização das Américas", "imperialismo europeu", "dominação cultural e econômica"],
+      "efeito_em_cena": "Uma cultura se impõe sobre outra e tenta reescrever a realidade.",
+      "regras": [
+        "Um personagem dita normas e linguagem 'oficial'.",
+        "Outro personagem precisa escolher entre adaptação, resistência ou disfarce.",
+        "A cena deve mostrar perda cultural ou material."
+      ]
+    },
+    {
+      "id": "EV_14",
+      "tipo": "evento",
+      "nome": "Independência",
+      "peso_dramatico": 3,
+      "inspiracao": ["Revolução Americana", "independências latino-americanas", "processos anticoloniais"],
+      "efeito_em_cena": "O domínio externo é rejeitado — e a liberdade cobra seu preço.",
+      "regras": [
+        "Um personagem rompe com a autoridade antiga.",
+        "O novo poder é instável e precisa de legitimidade.",
+        "Surge disputa interna: o que significa 'liberdade'?"
+      ]
+    },
+    {
+      "id": "EV_15",
+      "tipo": "evento",
+      "nome": "Fim de Guerra",
+      "peso_dramatico": 2,
+      "inspiracao": ["pós-guerras e reconstruções", "tratados pós-guerras mundiais", "transições de regimes"],
+      "efeito_em_cena": "A violência cessa, mas as marcas ficam — e a paz tem cláusulas.",
+      "regras": [
+        "Personagens lidam com perdas e recomeço.",
+        "Novas regras ou fronteiras surgem.",
+        "O conflito muda de forma (vingança, política, trauma)."
+      ]
+    },
+
+
+    {
+      "id": "SY_01",
+      "tipo": "sistema",
+      "nome": "Autocracia",
+      "peso_dramatico": 3,
+      "inspiracao": ["faraós do Egito Antigo", "ditaduras históricas", "governos centralizados em um único líder"],
+      "efeito_em_cena": "Uma única vontade define o destino de todos.",
+      "regras": [
+        "Um personagem toma decisões sem consultar os outros.",
+        "Discordar implica risco imediato.",
+        "Obediência é mais valorizada que competência."
+      ]
+    },
+    {
+      "id": "SY_02",
+      "tipo": "sistema",
+      "nome": "Monarquia",
+      "peso_dramatico": 3,
+      "inspiracao": ["reinos antigos e medievais", "monarquias europeias", "poder hereditário"],
+      "efeito_em_cena": "O poder passa pelo sangue.",
+      "regras": [
+        "Um personagem governa por herança.",
+        "Lealdade pessoal é exigida.",
+        "Questionar a linhagem gera conflito."
+      ]
+    },
+    {
+      "id": "SY_03",
+      "tipo": "sistema",
+      "nome": "Feudalismo",
+      "peso_dramatico": 4,
+      "inspiracao": ["Europa medieval", "sistema senhorial", "relações de vassalagem"],
+      "efeito_em_cena": "Proteção em troca de submissão.",
+      "regras": [
+        "Um personagem depende diretamente de outro para sobreviver.",
+        "Terra é a principal fonte de poder.",
+        "Lealdade vale mais que justiça."
+      ]
+    },
+    {
+      "id": "SY_04",
+      "tipo": "sistema",
+      "nome": "Teocracia",
+      "peso_dramatico": 4,
+      "inspiracao": ["estados religiosos históricos", "poder político legitimado pela fé", "leis religiosas como governo"],
+      "efeito_em_cena": "A autoridade fala em nome do sagrado.",
+      "regras": [
+        "Decisões exigem justificativa espiritual.",
+        "Discordar é visto como heresia.",
+        "Moral religiosa regula a vida cotidiana."
+      ]
+    },
+    {
+      "id": "SY_05",
+      "tipo": "sistema",
+      "nome": "Democracia",
+      "peso_dramatico": 3,
+      "inspiracao": ["Atenas clássica", "democracias modernas", "participação política cidadã"],
+      "efeito_em_cena": "Decidir exige debate.",
+      "regras": [
+        "Nenhuma decisão é imediata: precisa de deliberação.",
+        "Conflitos se resolvem por votação ou discurso.",
+        "A maioria impõe o resultado — gerando ressentimento em minorias."
+      ]
+    },
+    {
+      "id": "SY_06",
+      "tipo": "sistema",
+      "nome": "República",
+      "peso_dramatico": 3,
+      "inspiracao": ["República Romana", "estados republicanos modernos", "representação política"],
+      "efeito_em_cena": "O poder é delegado.",
+      "regras": [
+        "Um personagem fala em nome de outros (representação).",
+        "A legitimidade vem do mandato, não do sangue.",
+        "Barganhas e traições políticas são possíveis."
+      ]
+    },
+    {
+      "id": "SY_07",
+      "tipo": "sistema",
+      "nome": "Oligarquia",
+      "peso_dramatico": 3,
+      "inspiracao": ["cidades-estado antigas", "elites econômicas", "governos de poucos"],
+      "efeito_em_cena": "Poucos decidem por muitos.",
+      "regras": [
+        "Um pequeno grupo controla decisões e recursos.",
+        "A maioria é excluída do poder real.",
+        "Alianças internas são instáveis e oportunistas."
+      ]
+    },
+    {
+      "id": "SY_08",
+      "tipo": "sistema",
+      "nome": "Império",
+      "peso_dramatico": 4,
+      "inspiracao": ["Império Romano", "impérios persas e chineses", "Império Mongol"],
+      "efeito_em_cena": "Manter e expandir o domínio se torna prioridade absoluta.",
+      "regras": [
+        "Um personagem governa territórios diversos (línguas/culturas).",
+        "Resistências locais surgem e precisam ser contidas.",
+        "Controle exige força, concessões ou propaganda."
+      ]
+    },
+    {
+      "id": "SY_09",
+      "tipo": "sistema",
+      "nome": "Capitalismo Emergente",
+      "peso_dramatico": 3,
+      "inspiracao": ["mercantilismo", "Revolução Industrial", "economia de mercado"],
+      "efeito_em_cena": "Lucro redefine valores e relações.",
+      "regras": [
+        "Tudo pode ser negociado (até princípios).",
+        "Um personagem acumula riqueza rapidamente.",
+        "Outro se torna descartável ou explorado."
+      ]
+    },
+    {
+      "id": "SY_10",
+      "tipo": "sistema",
+      "nome": "Economia Tradicional",
+      "peso_dramatico": 1,
+      "inspiracao": ["sociedades agrárias", "costumes ancestrais", "trocas não monetárias"],
+      "efeito_em_cena": "Sempre foi assim — e mudar parece perigoso.",
+      "regras": [
+        "Mudanças são vistas com desconfiança.",
+        "Papéis sociais são definidos por tradição.",
+        "Inovação gera tensão e punição social."
+      ]
+    },
+    {
+      "id": "SY_11",
+      "tipo": "sistema",
+      "nome": "Socialismo",
+      "peso_dramatico": 3,
+      "inspiracao": ["movimentos socialistas", "economias mistas", "ideais de igualdade econômica"],
+      "efeito_em_cena": "O coletivo vem antes do indivíduo.",
+      "regras": [
+        "Recursos são compartilhados ou regulados.",
+        "Ganhos individuais são questionados.",
+        "Conflito surge sobre mérito, necessidade e justiça."
+      ]
+    },
+    {
+      "id": "SY_12",
+      "tipo": "sistema",
+      "nome": "Comunismo",
+      "peso_dramatico": 4,
+      "inspiracao": ["Revolução Russa", "estados comunistas do século XX", "marxismo"],
+      "efeito_em_cena": "A propriedade privada perde legitimidade e o Estado/Coletivo assume controle.",
+      "regras": [
+        "Bens são controlados pelo coletivo ou pelo Estado.",
+        "Hierarquias oficiais são negadas, mas surgem informalmente.",
+        "Ideologia justifica decisões duras."
+      ]
+    },
+    {
+      "id": "SY_13",
+      "tipo": "sistema",
+      "nome": "Estado Militar",
+      "peso_dramatico": 4,
+      "inspiracao": ["Império Assírio", "regimes militares", "governos baseados na força armada"],
+      "efeito_em_cena": "A ordem é mantida pela força e pela disciplina.",
+      "regras": [
+        "Militares têm prioridade sobre civis.",
+        "Desobediência é punida rapidamente.",
+        "Segurança justifica violência."
+      ]
+    },
+    {
+      "id": "SY_14",
+      "tipo": "sistema",
+      "nome": "Parlamentarismo",
+      "peso_dramatico": 2,
+      "inspiracao": ["parlamento inglês", "sistemas parlamentares modernos", "negociação política institucional"],
+      "efeito_em_cena": "O poder se constrói em acordos.",
+      "regras": [
+        "Decisões exigem alianças e negociações.",
+        "Discursos moldam o resultado.",
+        "Lideranças podem cair por falta de apoio."
+      ]
+    },
+    {
+      "id": "SY_15",
+      "tipo": "sistema",
+      "nome": "Totalitarismo",
+      "peso_dramatico": 5,
+      "inspiracao": ["fascismo", "stalinismo", "Estados de vigilância e controle total"],
+      "efeito_em_cena": "Nada escapa ao controle do poder.",
+      "regras": [
+        "Personagens se autocensuram.",
+        "Vigilância (real ou imaginada) é constante.",
+        "O medo organiza as relações e as decisões."
+      ]
+    },
+
+
+    {
+      "id": "FI_01",
+      "tipo": "figura",
+      "nome": "O Conquistador",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Alexandre, o Grande",
+        "Genghis Khan",
+        "Napoleão Bonaparte",
+        "imperialismo militar"
+      ],
+      "efeito_em_cena": "Expandir importa mais que preservar.",
+      "regras": [
+        "Um personagem busca constantemente ampliar seu domínio.",
+        "Recuar é visto como fraqueza.",
+        "Custos humanos são minimizados ou ignorados."
+      ]
+    },
+    {
+      "id": "FI_02",
+      "tipo": "figura",
+      "nome": "O Legislador",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Código de Hammurabi",
+        "Direito Romano",
+        "Código de Justiniano"
+      ],
+      "efeito_em_cena": "A ordem vem das regras.",
+      "regras": [
+        "Um personagem tenta transformar conflitos em leis.",
+        "O que era pessoal se torna institucional.",
+        "Aplicar a lei gera injustiças colaterais."
+      ]
+    },
+    {
+      "id": "FI_03",
+      "tipo": "figura",
+      "nome": "O Reformador",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Martinho Lutero",
+        "reformadores religiosos",
+        "reformadores políticos e sociais"
+      ],
+      "efeito_em_cena": "O sistema precisa mudar por dentro.",
+      "regras": [
+        "Um personagem questiona a autoridade existente.",
+        "Mudanças começam como ideias, não como violência.",
+        "O conflito cresce à medida que apoio e oposição surgem."
+      ]
+    },
+    {
+      "id": "FI_04",
+      "tipo": "figura",
+      "nome": "O Profeta",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "fundadores de religiões",
+        "líderes espirituais",
+        "movimentos messiânicos"
+      ],
+      "efeito_em_cena": "A verdade vem de algo maior.",
+      "regras": [
+        "Um personagem fala em nome de uma força superior.",
+        "Decisões são justificadas espiritualmente.",
+        "Discordar gera crise moral ou religiosa."
+      ]
+    },
+    {
+      "id": "FI_05",
+      "tipo": "figura",
+      "nome": "O Filósofo",
+      "peso_dramatico": 2,
+      "inspiracao": [
+        "Sócrates",
+        "Platão",
+        "pensadores clássicos"
+      ],
+      "efeito_em_cena": "Questionar o óbvio desestabiliza tudo.",
+      "regras": [
+        "Um personagem faz perguntas incômodas.",
+        "Certezas são colocadas em dúvida.",
+        "O conflito acontece no plano das ideias."
+      ]
+    },
+    {
+      "id": "FI_06",
+      "tipo": "figura",
+      "nome": "O Cientista",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Galileu Galilei",
+        "Isaac Newton",
+        "Revolução Científica"
+      ],
+      "efeito_em_cena": "A verdade precisa ser provada.",
+      "regras": [
+        "Um personagem exige evidências.",
+        "Tradições são desafiadas por dados.",
+        "Conhecimento técnico gera poder."
+      ]
+    },
+    {
+      "id": "FI_07",
+      "tipo": "figura",
+      "nome": "O Revolucionário",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Revolução Francesa",
+        "revoluções socialistas",
+        "levantes armados e ideológicos"
+      ],
+      "efeito_em_cena": "A ordem atual precisa cair.",
+      "regras": [
+        "Um personagem rejeita reformas graduais.",
+        "A ruptura é vista como necessária.",
+        "O caos é aceito como preço da mudança."
+      ]
+    },
+    {
+      "id": "FI_08",
+      "tipo": "figura",
+      "nome": "O Imperador",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Augusto",
+        "imperadores chineses",
+        "autoridades absolutas"
+      ],
+      "efeito_em_cena": "O poder se confunde com destino.",
+      "regras": [
+        "Um personagem acredita ser indispensável.",
+        "Decisões são centralizadas.",
+        "A queda pessoal ameaça todo o sistema."
+      ]
+    },
+    {
+      "id": "FI_09",
+      "tipo": "figura",
+      "nome": "O Mártir",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "Jesus",
+        "líderes perseguidos",
+        "mortes simbólicas transformadoras"
+      ],
+      "efeito_em_cena": "A perda gera significado e mobiliza outros.",
+      "regras": [
+        "Um personagem sofre ou se sacrifica.",
+        "Sua dor fortalece uma causa.",
+        "A punição ou morte muda o rumo da cena."
+      ]
+    },
+    {
+      "id": "FI_10",
+      "tipo": "figura",
+      "nome": "O Colonizador",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "colonização europeia",
+        "imperialismo cultural",
+        "missão civilizatória"
+      ],
+      "efeito_em_cena": "Dominar é apresentado como progresso.",
+      "regras": [
+        "Um personagem impõe valores externos.",
+        "Outro perde ou esconde sua identidade.",
+        "Conflitos culturais são inevitáveis."
+      ]
+    },
+
+    {
+      "id": "ID_01",
+      "tipo": "ideia",
+      "nome": "Lei Escrita",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Código de Hammurabi",
+        "Direito Romano",
+        "codificações legais históricas"
+      ],
+      "efeito_em_cena": "O texto vale mais que a palavra.",
+      "regras": [
+        "Conflitos passam a ser resolvidos por regras escritas.",
+        "Quem interpreta a lei ganha poder.",
+        "O que não está registrado perde validade."
+      ]
+    },
+    {
+      "id": "ID_02",
+      "tipo": "ideia",
+      "nome": "Direitos Individuais",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Magna Carta",
+        "Declaração dos Direitos do Homem",
+        "Bill of Rights"
+      ],
+      "efeito_em_cena": "O indivíduo passa a ter valor político.",
+      "regras": [
+        "Um personagem reivindica direitos próprios.",
+        "Autoridades têm seu poder limitado.",
+        "Conflitos surgem entre liberdade e ordem."
+      ]
+    },
+    {
+      "id": "ID_03",
+      "tipo": "ideia",
+      "nome": "Fé Organiza a Sociedade",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "cristianismo medieval",
+        "islamismo",
+        "estados religiosos históricos"
+      ],
+      "efeito_em_cena": "A moral regula a vida pública e privada.",
+      "regras": [
+        "Decisões precisam de justificativa espiritual.",
+        "Desvios morais são punidos.",
+        "Autoridade religiosa influencia o poder político."
+      ]
+    },
+    {
+      "id": "ID_04",
+      "tipo": "ideia",
+      "nome": "Razão Acima da Tradição",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "Iluminismo",
+        "Revolução Científica",
+        "pensamento racional moderno"
+      ],
+      "efeito_em_cena": "Nada é sagrado demais para ser questionado.",
+      "regras": [
+        "Argumentos baseados em razão ganham força.",
+        "Tradições são colocadas em xeque.",
+        "Autoridades perdem legitimidade simbólica."
+      ]
+    },
+    {
+      "id": "ID_05",
+      "tipo": "ideia",
+      "nome": "Contrato Social",
+      "peso_dramatico": 2,
+      "inspiracao": [
+        "John Locke",
+        "Jean-Jacques Rousseau",
+        "teorias políticas modernas"
+      ],
+      "efeito_em_cena": "O poder vem do acordo.",
+      "regras": [
+        "Autoridade precisa de consentimento.",
+        "Quebrar o acordo gera crise política.",
+        "Negociação se torna central."
+      ]
+    },
+    {
+      "id": "ID_06",
+      "tipo": "ideia",
+      "nome": "Missão Civilizatória",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "imperialismo europeu",
+        "colonialismo",
+        "ideologia do progresso"
+      ],
+      "efeito_em_cena": "Dominar é apresentado como dever moral.",
+      "regras": [
+        "Dominação é justificada como benefício.",
+        "Povos locais são infantilizados ou silenciados.",
+        "Violência é racionalizada moralmente."
+      ]
+    },
+    {
+      "id": "ID_07",
+      "tipo": "ideia",
+      "nome": "Nação e Identidade",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "nacionalismo",
+        "formação dos Estados-nação",
+        "identidades coletivas modernas"
+      ],
+      "efeito_em_cena": "Pertencer importa mais que obedecer.",
+      "regras": [
+        "Personagens se definem por identidade coletiva.",
+        "Lealdades pessoais entram em conflito.",
+        "Exclusão vira ferramenta política."
+      ]
+    },
+    {
+      "id": "ID_08",
+      "tipo": "ideia",
+      "nome": "Progresso Científico",
+      "peso_dramatico": 3,
+      "inspiracao": [
+        "avanços científicos modernos",
+        "industrialização",
+        "tecnologia aplicada"
+      ],
+      "efeito_em_cena": "Avançar parece inevitável.",
+      "regras": [
+        "Decisões são justificadas por eficiência.",
+        "Impactos humanos são secundarizados.",
+        "Conhecimento técnico gera poder."
+      ]
+    },
+    {
+      "id": "ID_09",
+      "tipo": "ideia",
+      "nome": "Igualdade Radical",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "socialismo",
+        "comunismo",
+        "movimentos igualitários"
+      ],
+      "efeito_em_cena": "Hierarquias são vistas como injustas.",
+      "regras": [
+        "Privilégios são questionados.",
+        "Diferenças de poder são combatidas.",
+        "Conflitos surgem sobre mérito e uniformidade."
+      ]
+    },
+    {
+      "id": "ID_10",
+      "tipo": "ideia",
+      "nome": "Liberdade como Valor Supremo",
+      "peso_dramatico": 4,
+      "inspiracao": [
+        "revoluções liberais",
+        "independências nacionais",
+        "pensamento liberal"
+      ],
+      "efeito_em_cena": "Nenhuma ordem justifica opressão.",
+      "regras": [
+        "Autoridade é constantemente desafiada.",
+        "Indivíduos priorizam autonomia.",
+        "Conflito entre liberdade e segurança emerge."
+      ]
+    }
+  
+
+  ]
+}

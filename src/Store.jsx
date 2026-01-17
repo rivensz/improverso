@@ -18,6 +18,17 @@ export function StoreProvider({ children }) {
   const [globalTropeHistory, setGlobalTropeHistory] = useState([]);
   const [drawCountTrope, setDrawCountTrope] = useState(1);
 
+
+  // ---------- CARTAS HISTÓRICAS ----------
+  const [historicalType, setHistoricalType] = useState("virada_era");
+  const [historicalDrawCount, setHistoricalDrawCount] = useState(1);
+
+  const [currentHistoricalDraw, setCurrentHistoricalDraw] = useState([]);
+  // usado temporário separado por tipo: { virada_era: ["VE_01", ...], evento: ["EV_02", ...] }
+  const [usedTempHistoricalByType, setUsedTempHistoricalByType] = useState({});
+  const [globalHistoricalHistory, setGlobalHistoricalHistory] = useState([]);
+
+
   return (
     <StoreContext.Provider
       value={{
@@ -43,6 +54,18 @@ export function StoreProvider({ children }) {
         setGlobalTropeHistory,
         drawCountTrope,
         setDrawCountTrope,
+        // cartas históricas
+        historicalType,
+        setHistoricalType,
+        historicalDrawCount,
+        setHistoricalDrawCount,
+        currentHistoricalDraw,
+        setCurrentHistoricalDraw,
+        usedTempHistoricalByType,
+        setUsedTempHistoricalByType,
+        globalHistoricalHistory,
+        setGlobalHistoricalHistory,
+
       }}
     >
       {children}
